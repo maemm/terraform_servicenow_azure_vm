@@ -1,8 +1,12 @@
 
-variable "image_sku" {
+variable "sku" {
   default = "19-04-LTS"
 } 
 
-variable "vm_size" {
+variable "size" {
   default = "Standard_F1"
+}
+
+variable "email" {
+  default = "default_email@techmahindra.com"
 }
